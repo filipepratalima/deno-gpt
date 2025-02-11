@@ -1,12 +1,20 @@
 # denoGPT
-Simple play around with Deno 2.1 &amp; [OpenAI](https://platform.openai.com/docs/overview)
+Simple play around with [Deno 2.1](https://deno.com/) &amp; [OpenAI](https://platform.openai.com/docs/overview)
+![preview](./preview.png)
 
-## Environment variables
+## Setup
+### Install Deno
+```bash
+curl -fsSL https://deno.land/install.sh | sh
+```
+
+### Environment variables
 
 ```bash
 cp .env.sample .env
 ```
 Edit the `.env` file with your own `OPENAI_API_KEY`.
+
 
 ## Development
 
