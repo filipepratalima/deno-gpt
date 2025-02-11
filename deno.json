@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "denoGPT": "deno run -REN --watch denoGPT.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "openai": "npm:openai@^4.83.0"
+  }
+}
